@@ -1,0 +1,13 @@
+[book]
+authors = ["Tian Zhou"]
+language = "en"
+multilingual = false
+src = "src"
+title = "Course Notebooks"
+
+[output.html.fold]
+enable = true
+
+[output.html]
+git-repository-icon = "fa-github"
+git-repository-url = "https://github.com/TianZhou2718/Course_Notebooks"

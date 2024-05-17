@@ -1,11 +1,12 @@
 # Algebra Notebooks
 
 <blockquote class="callout callout_default" theme="📘">
-  <h3 style="margin-top: 0.75cm;"> <a href="../../attachments/math_411_honors_algebra_i.pdf"> 📘 &nbsp AS.110.411 Honors Algebra I</a></h3>
+  <h3 style="margin-top: 0.75cm;"> <a href="../../attachments/math_411_honors_algebra_i.pdf"> 📘 &nbsp AS.110.411/412 Honors Algebra I/II</a></h3>
   <ul style="margin: 10px 0; padding-bottom: 0.25cm;">
-    <li>Course Description: An introduction to the basic notions of modern algebra for students with some prior acquaintance with abstract mathematics. Elements of group theory: groups, subgroups, normal subgroups, quotients, homomorphisms. Generators and relations, free groups, products, abelian groups, finite groups. Groups acting on sets, the Sylow theorems. Definition and examples of rings and ideals.</li> <p>
-    <li>Last Updated: Jan 14, 2024 </li>
-    <li><a href="../../attachments/math_411_honors_algebra_i.pdf">Link to Notebook</a></li>
+    <li>Course Description: (Algebra I) An introduction to the basic notions of modern algebra for students with some prior acquaintance with abstract mathematics. Elements of group theory: groups, subgroups, normal subgroups, quotients, homomorphisms. Generators and relations, free groups, products, abelian groups, finite groups. Groups acting on sets, the Sylow theorems. Definition and examples of rings and ideals.</li>
+    <li>Course Description: (Algebra II) A continuation of 110.411 Honors Algebra I. Topics studies include principal ideal domains, structure of finitely generated modules over them. Introduction to field theory. Linear algebra over a field. Field extensions, constructible polygons, non-trisectability. Splitting field of a polynomial, algebraic closure of a field. Galois theory: correspondence between subgroups and subfields. Solvability of polynomial equations by radicals.</li> <p>
+    <li>Last Updated: May 17, 2024 </li>
+    <li><a href="../../attachments/math_411_412_honors_algebra.pdf">Link to Notebook</a></li>
   </ul>
 </blockquote>
 

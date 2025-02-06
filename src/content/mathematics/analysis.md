@@ -19,3 +19,12 @@
     <li><a href="../../attachments/math_417_pdes.pdf">Link to Notebook</a></li>
   </ul>
 </blockquote>
+
+<blockquote class="callout callout_default" theme="📘">
+  <h3 style="margin-top: 0.75cm;"> <a href="https://james-guo-03.github.io/files/sdes.pdf"> 📘 &nbsp AS.110.653 Stochastic Differential Equation</a></h3>
+  <ul style="margin: 10px 0; padding-bottom: 0.25cm;">
+    <li>Course Description: This course is an introduction to stochastic differential equations and applications. Basic topics to be reviewed include Ito and Stratonovich integrals, Ito formula, SDEs and their integration. The course will focus on diffusion processes and diffusion theory, with topics include Markov properties, generator, Kolmogrov's equations (Fokker-Planck equation), Feynman-Kac formula, the martingale problem, Girsanov theorem, stability and ergodicity. The course will briefly introduce applications, with topics include statistical inference of SDEs, filtering and control.</li>
+    <li>Last Updated: Will be updated through the semester</li>
+    <li><a href="https://james-guo-03.github.io/files/sdes.pdf">Link to Notebook</a></li>
+  </ul>
+</blockquote>

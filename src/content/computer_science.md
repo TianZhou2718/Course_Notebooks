@@ -17,3 +17,21 @@
     <li><a href="../attachments/cs_475_machine_learning.pdf">Link to Notebook</a></li>
   </ul>
 </blockquote>
+
+<blockquote class="callout callout_default" theme="📘">
+  <h3 style="margin-top: 0.75cm;"> <a href="https://james-guo-03.github.io/files/machine_learning.pdf"> 📘 &nbsp EN.601.475 Machine Learning (Fall 24 *Special*)</a></h3>
+  <ul style="margin: 10px 0; padding-bottom: 0.25cm;">
+    <li>Course Description: Machine Learning has now become an important subject intersecting computer science and mathematics. There are various topics covered about supervised learning and unsupervised learning with tricks such as boosting data and reducing dimensions. The course also covered basics on causal inference models, in particular, DAGs and Markov Chains.</li> <p>
+    <li>Last Updated: Jan 14, 2024</li>
+    <li><a href="https://james-guo-03.github.io/files/machine_learning.pdf">Link to Notebook</a></li>
+  </ul>
+</blockquote>
+
+<blockquote class="callout callout_default" theme="📘">
+  <h3 style="margin-top: 0.75cm;"> <a href="https://james-guo-03.github.io/files/mldl-notes.pdf"> 📘 &nbsp EN.601.482 Machine Learning: Deep Learning (Spring 25 *Special*)</a></h3>
+  <ul style="margin: 10px 0; padding-bottom: 0.25cm;">
+    <li>Course Description: A brief introduction to the basic theoretical and methodological underpinnings of machine learning, commonly used architectures for DL, DL optimization methods, DL programming systems, and specialized applications to computer vision, speech understanding, and robotics. </li> <p>
+    <li>Last Updated: Jan 14, 2024</li>
+    <li><a href="https://james-guo-03.github.io/files/mldl-notes.pdf">Link to Notebook</a></li>
+  </ul>
+</blockquote>

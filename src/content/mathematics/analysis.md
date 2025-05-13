@@ -16,7 +16,7 @@
   <ul style="margin: 10px 0; padding-bottom: 0.25cm;">
     <li>Course Description: First exposure to the theory of Partial Differential Equations by examples. Basic examples of PDEs (Boundary value problems and initial value problems): Laplace equation, heat equation and wave equation. Method of separation of variables. Fourier series. Examples of wave equations in one and two dimensions. Sturm-Liouville eigenvalue problems and generalized Fourier series. Self-adjoint operators and applications to problems in higher dimensions. Nonhomogeneous PDEs. Green's functions and fundamental solution for the heat equation. </li> <p>
     <li>Last Updated: May 4, 2024</li>
-    <li><a href="../../attachments/math_417_pdes.pdf">Link to Notebook</a></li>
+    <li><a href="https://james-guo-03.github.io/files/partial_differential_equations.pdf">Link to Notebook</a></li>
   </ul>
 </blockquote>
 

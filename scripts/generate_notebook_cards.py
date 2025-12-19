@@ -20,6 +20,14 @@ THEME_STYLES: dict[str, tuple[str, str]] = {
 }
 DEFAULT_STYLE = ("#3c4655", "#f7f8fa")
 
+HERO_STYLES: dict[str, tuple[str, str, str]] = {
+    "💻": ("linear-gradient(120deg, #eef1ff, #ffffff)", "#d7ddff", "rgba(76, 99, 185, 0.15)"),
+    "📘": ("linear-gradient(120deg, #eef1ff, #ffffff)", "#d7ddff", "rgba(76, 99, 185, 0.15)"),
+    "📗": ("linear-gradient(120deg, #f3fbf6, #ffffff)", "#cee3d8", "rgba(33, 143, 99, 0.18)"),
+    "📕": ("linear-gradient(120deg, #fff0f2, #ffffff)", "#f5ccd2", "rgba(182, 48, 58, 0.18)"),
+}
+DEFAULT_HERO_STYLE = ("linear-gradient(120deg, #eef1ff, #ffffff)", "#d7ddff", "rgba(76, 99, 185, 0.15)")
+
 
 def load_data() -> list[dict]:
     if not DATA_FILE.exists():
@@ -51,8 +59,8 @@ def render_heading(card: dict) -> str:
 
 
 def render_card(card: dict, attachments_rel: str) -> str:
-    theme = card.get("theme") or card.get("icon") or "📘"
-    accent, background = THEME_STYLES.get(theme, DEFAULT_STYLE)
+    icon = card.get("icon", "📘")
+    accent, background = THEME_STYLES.get(icon, DEFAULT_STYLE)
     heading = render_heading(card)
     descriptions = card.get("descriptions") or []
     last_updated = card.get("last_updated", "")
@@ -72,14 +80,8 @@ def render_card(card: dict, attachments_rel: str) -> str:
         '  <div style="display: flex; justify-content: space-between; flex-wrap: wrap; '
         'align-items: center; gap: 0.75rem;">',
         f'    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> {heading}</h3>',
+        "  </div>",
     ]
-
-    if last_updated:
-        lines.append(
-            f'    <span style="font-size: 1.3rem; color: #60656f;">Last Updated: {last_updated}</span>'
-        )
-
-    lines.append("  </div>")
     lines.append(
         '  <div style="margin-top: 0.7em;">\n'
         '    <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; '
@@ -130,7 +132,14 @@ def render_card(card: dict, attachments_rel: str) -> str:
         f'    <a href="{notebook_link}" '
         f'style="font-weight: 600; color: {accent}; text-decoration: none;">{link_text} →</a>'
     )
-    lines.append(f'    <span style="font-size: 1.3rem;">{theme}</span>')
+    right_section = ['    <div style="display: flex; align-items: center; gap: 0.55em;">']
+    if last_updated:
+        right_section.append(
+            f'      <span style="font-size: 1.2rem; color: #60656f;">Last Updated: {last_updated}</span>'
+        )
+    right_section.append(f'      <span style="font-size: 1.3rem;">{icon}</span>')
+    right_section.append("    </div>")
+    lines.extend(right_section)
     lines.append("  </div>")
     lines.append("</div>")
 
@@ -139,6 +148,8 @@ def render_card(card: dict, attachments_rel: str) -> str:
 
 def render_page(page: dict) -> str:
     heading = page.get("heading")
+    subtitle = page.get("subtitle", "")
+    hero_icon = page.get("hero_icon", "📘")
     if not heading:
         raise ValueError(f"Page entry for {page.get('file')} is missing a heading.")
 
@@ -146,7 +157,21 @@ def render_page(page: dict) -> str:
     if not cards:
         raise ValueError(f"Page '{heading}' must define at least one card.")
 
-    content_lines = [f"# {heading}", ""]
+    background, border, shadow = HERO_STYLES.get(hero_icon, DEFAULT_HERO_STYLE)
+
+    hero_block = [
+        f'<div style="margin-top: 0.5rem; padding: 1.4rem 1.6rem; border-radius: 26px; background: {background}; '
+        f'border: 1px solid {border}; box-shadow: 0 18px 35px {shadow}; text-align: center;">',
+        f'  <div style="font-size: 2.8rem;">{hero_icon}</div>',
+        f'  <div style="font-size: 2.3rem; font-weight: 700; color: #1f2a4f; margin-top: 0.35rem;">{heading}</div>',
+    ]
+    if subtitle:
+        hero_block.append(
+            f'  <div style="font-size: 1rem; color: #5d6481; margin-top: 0.35rem;">{subtitle}</div>'
+        )
+    hero_block.append("</div>")
+
+    content_lines = hero_block + [""]
     target_path = REPO_ROOT / page["file"]
     attachments_rel = os.path.relpath(ATTACHMENTS_DIR, target_path.parent)
     rendered_cards = [render_card(card, attachments_rel) for card in cards]

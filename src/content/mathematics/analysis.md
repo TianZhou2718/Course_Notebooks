@@ -1,9 +1,10 @@
-# Analysis Notebooks
+<div style="margin-top: 2rem; padding: 1.4rem 1.6rem; border-radius: 26px; background: linear-gradient(120deg, #eef1ff, #ffffff); border: 1px solid #d7ddff; box-shadow: 0 18px 35px rgba(76, 99, 185, 0.15); text-align: center;">
+  <div style="font-size: 2.3rem; font-weight: 700; color: #1f2a4f; margin-top: 0.35rem;">Analysis Notebooks</div>
+</div>
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
     <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="../../attachments/math_415_416_honors_analysis.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.415/416 Honors Analysis I/II</a></h3>
-    <span style="font-size: 1.3rem; color: #60656f;">Last Updated: May 17, 2024</span>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -14,14 +15,16 @@
   </div>
   <div style="margin-top: 0.95em; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;">
     <a href="../../attachments/math_415_416_honors_analysis.pdf" style="font-weight: 600; color: #3457d5; text-decoration: none;">View Notebook →</a>
-    <span style="font-size: 1.3rem;">📘</span>
+    <div style="display: flex; align-items: center; gap: 0.55em;">
+      <span style="font-size: 1.2rem; color: #60656f;">Last Updated: May 17, 2024</span>
+      <span style="font-size: 1.3rem;">📘</span>
+    </div>
   </div>
 </div>
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
     <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="https://james-guo-03.github.io/notes/partial_differential_equations.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.417 Partial Differential Equations and Applications</a></h3>
-    <span style="font-size: 1.3rem; color: #60656f;">Last Updated: May 4, 2024</span>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -35,14 +38,16 @@
   <div style="margin-top: 0.35em; padding-left: 0.5em; font-size: 1.2rem; color: #5f6368; display: flex; align-items: center; gap: 0.4em;">James Guo<a href="https://github.com/james-guo-03" style="margin-left: 0.6em; display: inline-flex; align-items: center;"><img src="../../attachments/github-logo.png" alt="GitHub" style="width: 18px; height: 18px; vertical-align: middle;" /></a></div>
   <div style="margin-top: 0.95em; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;">
     <a href="https://james-guo-03.github.io/notes/partial_differential_equations.pdf" style="font-weight: 600; color: #3457d5; text-decoration: none;">View Notebook →</a>
-    <span style="font-size: 1.3rem;">📘</span>
+    <div style="display: flex; align-items: center; gap: 0.55em;">
+      <span style="font-size: 1.2rem; color: #60656f;">Last Updated: May 4, 2024</span>
+      <span style="font-size: 1.3rem;">📘</span>
+    </div>
   </div>
 </div>
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
     <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="https://james-guo-03.github.io/files/PDEs-Notes.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.631 Partial Differential Equations Theory</a></h3>
-    <span style="font-size: 1.3rem; color: #60656f;">Last Updated: December 18, 2025</span>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -56,14 +61,16 @@
   <div style="margin-top: 0.35em; padding-left: 0.5em; font-size: 1.2rem; color: #5f6368; display: flex; align-items: center; gap: 0.4em;">James Guo<a href="https://github.com/james-guo-03" style="margin-left: 0.6em; display: inline-flex; align-items: center;"><img src="../../attachments/github-logo.png" alt="GitHub" style="width: 18px; height: 18px; vertical-align: middle;" /></a></div>
   <div style="margin-top: 0.95em; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;">
     <a href="https://james-guo-03.github.io/files/PDEs-Notes.pdf" style="font-weight: 600; color: #3457d5; text-decoration: none;">View Notebook →</a>
-    <span style="font-size: 1.3rem;">📘</span>
+    <div style="display: flex; align-items: center; gap: 0.55em;">
+      <span style="font-size: 1.2rem; color: #60656f;">Last Updated: December 18, 2025</span>
+      <span style="font-size: 1.3rem;">📘</span>
+    </div>
   </div>
 </div>
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
     <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="https://james-guo-03.github.io/files/RG-Notes.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.645 Riemannian Geometry</a></h3>
-    <span style="font-size: 1.3rem; color: #60656f;">Last Updated: December 18, 2025</span>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -77,14 +84,16 @@
   <div style="margin-top: 0.35em; padding-left: 0.5em; font-size: 1.2rem; color: #5f6368; display: flex; align-items: center; gap: 0.4em;">James Guo<a href="https://github.com/james-guo-03" style="margin-left: 0.6em; display: inline-flex; align-items: center;"><img src="../../attachments/github-logo.png" alt="GitHub" style="width: 18px; height: 18px; vertical-align: middle;" /></a></div>
   <div style="margin-top: 0.95em; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;">
     <a href="https://james-guo-03.github.io/files/RG-Notes.pdf" style="font-weight: 600; color: #3457d5; text-decoration: none;">View Notebook →</a>
-    <span style="font-size: 1.3rem;">📘</span>
+    <div style="display: flex; align-items: center; gap: 0.55em;">
+      <span style="font-size: 1.2rem; color: #60656f;">Last Updated: December 18, 2025</span>
+      <span style="font-size: 1.3rem;">📘</span>
+    </div>
   </div>
 </div>
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
     <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="https://james-guo-03.github.io/notes/sdes-notes.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.653 Stochastic Differential Equation</a></h3>
-    <span style="font-size: 1.3rem; color: #60656f;">Last Updated: May 12, 2025</span>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -98,6 +107,9 @@
   <div style="margin-top: 0.35em; padding-left: 0.5em; font-size: 1.2rem; color: #5f6368; display: flex; align-items: center; gap: 0.4em;">James Guo<a href="https://github.com/james-guo-03" style="margin-left: 0.6em; display: inline-flex; align-items: center;"><img src="../../attachments/github-logo.png" alt="GitHub" style="width: 18px; height: 18px; vertical-align: middle;" /></a></div>
   <div style="margin-top: 0.95em; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;">
     <a href="https://james-guo-03.github.io/notes/sdes-notes.pdf" style="font-weight: 600; color: #3457d5; text-decoration: none;">View Notebook →</a>
-    <span style="font-size: 1.3rem;">📘</span>
+    <div style="display: flex; align-items: center; gap: 0.55em;">
+      <span style="font-size: 1.2rem; color: #60656f;">Last Updated: May 12, 2025</span>
+      <span style="font-size: 1.3rem;">📘</span>
+    </div>
   </div>
 </div>

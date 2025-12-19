@@ -10,4 +10,3 @@ Here's the [link](https://tianzhou2718.github.io/Course_Notebooks/) to the websi
 
 This website serves as a centralized hub for a collection of notebooks used in various courses offered by Johns Hopkins University. Free feel to explore a diverse range of materials designed to enhance your understanding of mathematics and computer science.
 
-

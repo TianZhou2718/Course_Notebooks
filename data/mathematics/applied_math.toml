@@ -1,0 +1,26 @@
+[[pages]]
+file = "src/content/mathematics/applied_math.md"
+heading = "Applied Mathematics Notebooks"
+hero_icon = "📗"
+
+[[pages.cards]]
+icon = "📗"
+title = "EN.553.361 Introduction to Optimization"
+notebook_link = "https://james-guo-03.github.io/files/opti-Notes.pdf"
+last_updated = "December 18, 2025"
+contributor = "James Guo"
+contributor_url = "https://github.com/james-guo-03"
+descriptions = ["""
+An introductory survey of optimization methods, supporting mathematical theory and concepts, and application to problems of planning, design, prediction, estimation, and control in engineering, management, and science. Study of varied optimization techniques including linear programming, network-problem methods, dynamic programming, integer programming, and nonlinear programming.
+"""]
+
+[[pages.cards]]
+icon = "📗"
+title = "EN.553.480 Numerical Linear Algebra"
+notebook_link = "https://james-guo-03.github.io/notes/numerical_linear_algebra.pdf"
+last_updated = "December 6, 2024"
+contributor = "James Guo"
+contributor_url = "https://github.com/james-guo-03"
+descriptions = ["""
+A course on computational linear algebra and applications. Topics include floating-point arithmetic algorithms and convergence Gaussian elimination for linear systems matrix decompositions (LU, Cholesky, QR) iterative methods for systems (Jacobi, Gauss Seidel) approximation of eigenvalues (power method, QR-algorithm) and also singular values and singular-value decomposition (SVD). Theoretical topics such as vector spaces, inner products norms, linear operators, matrix norms, eigenvalues and canonical forms of matrices (Jordan, Schur) are reviewed as needed.
+"""]

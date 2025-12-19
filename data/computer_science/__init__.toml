@@ -1,0 +1,44 @@
+[[pages]]
+file = "src/content/computer_science/__init__.md"
+heading = "Computer Science"
+hero_icon = "💻"
+
+[[pages.cards]]
+icon = "📘"
+title = "EN.601.433 Intro Algorithms"
+notebook_link = "../attachments/cs_433_intro_algorithms.pdf"
+last_updated = "Jan 14, 2024"
+descriptions = ["""
+This course concentrates on the design of algorithms and the rigorous analysis of their efficiency. topics include the basic definitions of algorithmic complexity (worst case, average case); basic tools such as dynamic programming, sorting, searching, and selection; advanced data structures and their applications (such as union-find); graph algorithms and searching techniques such as minimum spanning trees, depth-first search, shortest paths, design of online algorithms and competitive analysis.
+"""]
+
+[[pages.cards]]
+icon = "📘"
+title = "EN.601.475 Machine Learning"
+notebook_link = "../attachments/cs_475_machine_learning.pdf"
+last_updated = "Jan 14, 2024"
+descriptions = ["""
+Machine learning is subfield of computer science and artificial intelligence, whose goal is to develop computational systems, methods, and algorithms that can learn from data to improve their performance. This course introduces the foundational concepts of modern Machine Learning, including core principles, popular algorithms and modeling platforms. This will include both supervised learning, which includes popular algorithms like SVMs, logistic regression, boosting and deep learning, as well as unsupervised learning frameworks, which include Expectation Maximization and graphical models.
+"""]
+
+[[pages.cards]]
+icon = "📘"
+title = "EN.601.475 Machine Learning (Fall)"
+notebook_link = "https://james-guo-03.github.io/notes/machine_learning.pdf"
+last_updated = "Jan 26, 2025"
+contributor = "James Guo"
+contributor_url = "https://github.com/james-guo-03"
+descriptions = ["""
+Machine Learning has now become an important subject intersecting computer science and mathematics. There are various topics covered about supervised learning and unsupervised learning with tricks such as boosting data and reducing dimensions. The course also covered basics on causal inference models, in particular, DAGs and Markov Chains.
+"""]
+
+[[pages.cards]]
+icon = "📘"
+title = "EN.601.482 Machine Learning: Deep Learning (Spring)"
+notebook_link = "https://james-guo-03.github.io/notes/mldl-notes.pdf"
+last_updated = "May 13, 2025"
+contributor = "James Guo"
+contributor_url = "https://github.com/james-guo-03"
+descriptions = ["""
+A brief introduction to the basic theoretical and methodological underpinnings of machine learning, commonly used architectures for DL, DL optimization methods, DL programming systems, and specialized applications to computer vision, speech understanding, and robotics.
+"""]

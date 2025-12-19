@@ -1,12 +1,26 @@
+## Notebook Contributor Notes
 
-## Updating notebook cards
-
-Notebook “cards” are generated from structured data so you only have to edit the course metadata once. Add or update entries in `data/notebook_cards.toml` and then regenerate the Markdown pages by running:
+Notebook “cards” are generated from structured data. To add or update notebook, modify metadata files (in `/toml`) in `data/` directory. Then regenerate (and overwrite) the md files by running:
 
 ```bash
 python3 scripts/generate_notebook_cards.py
 ```
 
-The script overwrites the affected files in `src/content/`, so make edits to the data file instead of the Markdown files directly.
+- Notebook metadata:
+    - `icon`: visual icon on notebook card, default is "📘"
+    - `title`
+    - `notebook_link`: relative path to notebook pdf
+    - `last_updated`
+    - `descriptions`: list of description paragrahs
+- Optional metadata
+    - `contributor`: credit line for contributor
+    - `contributor_url`: url to contributor's github
 
-- Optional fields: `contributor` (and `contributor_url`) add a credit line for whoever maintains the notebook.
+## Local Development on mdBook
+
+Reference: [mdBook Documentation](https://rust-lang.github.io/mdBook/)
+
+To locally deploy (and serve mdBook), use
+```bash
+mdbook serve - o
+```

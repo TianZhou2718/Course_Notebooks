@@ -1,0 +1,13 @@
+[[pages]]
+file = "src/content/mathematics/topology.md"
+heading = "Topology Notebooks"
+hero_icon = "📘"
+
+[[pages.cards]]
+icon = "📘"
+title = "AS.110.413 Introduction to Topology"
+notebook_link = "../../attachments/math_413_introduction_to_topology.pdf"
+last_updated = "Jan 14, 2024"
+descriptions = ["""
+Topological spaces, connectedness, compactness, quotient spaces, metric spaces, function spaces. An introduction to algebraic topology: covering spaces, the fundamental group, and other topics as time permits.
+"""]

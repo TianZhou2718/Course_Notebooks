@@ -1,10 +1,11 @@
-<div style="margin-top: 2rem; padding: 1.4rem 1.6rem; border-radius: 26px; background: linear-gradient(120deg, #eef1ff, #ffffff); border: 1px solid #d7ddff; box-shadow: 0 18px 35px rgba(76, 99, 185, 0.15); text-align: center;">
+<div style="margin-top: 0.5rem; padding: 1.4rem 1.6rem; border-radius: 26px; background: linear-gradient(120deg, #eef1ff, #ffffff); border: 1px solid #d7ddff; box-shadow: 0 18px 35px rgba(76, 99, 185, 0.15); text-align: center;">
+  <div style="font-size: 2.8rem;">📘</div>
   <div style="font-size: 2.3rem; font-weight: 700; color: #1f2a4f; margin-top: 0.35rem;">Algebra Notebooks</div>
 </div>
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
-    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="../../attachments/math_411_412_honors_algebra.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.411/412 Honors Algebra I/II</a></h3>
+    <h3 style="margin: 0; font-size: 1.7rem; font-weight: 600;"> <a href="../../attachments/math_411_412_honors_algebra.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.411/412 Honors Algebra I/II</a></h3>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -24,7 +25,7 @@
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
-    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="../../attachments/math_304_elementary_number_theory.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.304 Elementary Number Theory</a></h3>
+    <h3 style="margin: 0; font-size: 1.7rem; font-weight: 600;"> <a href="../../attachments/math_304_elementary_number_theory.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.304 Elementary Number Theory</a></h3>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -43,7 +44,7 @@
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
-    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="../../attachments/math_212_honors_linear_algebra.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.212 Honors Linear Algebra</a></h3>
+    <h3 style="margin: 0; font-size: 1.7rem; font-weight: 600;"> <a href="../../attachments/math_212_honors_linear_algebra.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp AS.110.212 Honors Linear Algebra</a></h3>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>

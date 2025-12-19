@@ -1,0 +1,36 @@
+[[pages]]
+file = "src/content/mathematics/algebra.md"
+heading = "Algebra Notebooks"
+hero_icon = "📘"
+
+[[pages.cards]]
+icon = "📘"
+title = "AS.110.411/412 Honors Algebra I/II"
+notebook_link = "../../attachments/math_411_412_honors_algebra.pdf"
+last_updated = "May 17, 2024"
+descriptions = [
+"""
+(Algebra I) An introduction to the basic notions of modern algebra for students with some prior acquaintance with abstract mathematics. Elements of group theory: groups, subgroups, normal subgroups, quotients, homomorphisms. Generators and relations, free groups, products, abelian groups, finite groups. Groups acting on sets, the Sylow theorems. Definition and examples of rings and ideals.
+""",
+"""
+(Algebra II) A continuation of 110.411 Honors Algebra I. Topics studies include principal ideal domains, structure of finitely generated modules over them. Introduction to field theory. Linear algebra over a field. Field extensions, constructible polygons, non-trisectability. Splitting field of a polynomial, algebraic closure of a field. Galois theory: correspondence between subgroups and subfields. Solvability of polynomial equations by radicals.
+"""
+]
+
+[[pages.cards]]
+icon = "📘"
+title = "AS.110.304 Elementary Number Theory"
+notebook_link = "../../attachments/math_304_elementary_number_theory.pdf"
+last_updated = "Jan 14, 2024"
+descriptions = ["""
+The student is provided with many historical examples of topics, each of which serves as an illustration of and provides a background for many years of current research in number theory. Primes and prime factorization, congruences, Euler's function, quadratic reciprocity, primitive roots, solutions to polynomial congruences (Chevalley's theorem), Diophantine equations including the Pythagorean and Pell equations, Gaussian integers, Dirichlet's theorem on primes.
+"""]
+
+[[pages.cards]]
+icon = "📘"
+title = "AS.110.212 Honors Linear Algebra"
+notebook_link = "../../attachments/math_212_honors_linear_algebra.pdf"
+last_updated = "Jan 14, 2024"
+descriptions = ["""
+This is a course in the study of linear spaces, or vector spaces, and the structure of linear mappings between such spaces. Topics include vector spaces, the structure of linear transformations and matrices, eigenvalues and eigenvectors, the Jordan canonical form, inner product spaces and linear operators, and determinants.
+"""]

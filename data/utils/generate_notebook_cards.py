@@ -8,8 +8,8 @@ import os
 from pathlib import Path
 import tomllib
 
-REPO_ROOT = Path(__file__).resolve().parents[1]
-DATA_FILE = REPO_ROOT / "data" / "notebook_cards.toml"
+REPO_ROOT = Path(__file__).resolve().parents[2]
+DATA_DIR = REPO_ROOT / "data"
 ATTACHMENTS_DIR = REPO_ROOT / "src" / "attachments"
 GITHUB_LOGO = "github-logo.png"
 
@@ -30,16 +30,22 @@ DEFAULT_HERO_STYLE = ("linear-gradient(120deg, #eef1ff, #ffffff)", "#d7ddff", "r
 
 
 def load_data() -> list[dict]:
-    if not DATA_FILE.exists():
-        sys.exit(f"Data file not found: {DATA_FILE}")
+    if not DATA_DIR.exists():
+        raise Exception("Data directory not found.")
 
-    with DATA_FILE.open("rb") as fh:
-        raw = tomllib.load(fh)
+    pages: list[dict] = []
+    for toml_path in sorted(DATA_DIR.rglob("*.toml")):
+        with toml_path.open("rb") as fh:
+            raw = tomllib.load(fh)
+        file_pages = raw.get("pages")
+        if not file_pages:
+            continue
+        pages.extend(file_pages)
 
-    pages = raw.get("pages")
     if not pages:
-        sys.exit("No pages defined in notebook card data.")
+        raise Exception("No pages defined in notebook card data.")
 
+    pages.sort(key=lambda page: page.get("file", ""))
     return pages
 
 
@@ -79,7 +85,7 @@ def render_card(card: dict, attachments_rel: str) -> str:
         'box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">',
         '  <div style="display: flex; justify-content: space-between; flex-wrap: wrap; '
         'align-items: center; gap: 0.75rem;">',
-        f'    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> {heading}</h3>',
+        f'    <h3 style="margin: 0; font-size: 1.7rem; font-weight: 600;"> {heading}</h3>',
         "  </div>",
     ]
     lines.append(
@@ -100,7 +106,6 @@ def render_card(card: dict, attachments_rel: str) -> str:
 
     if contributor:
         logo_path = f"{attachments_rel}/{GITHUB_LOGO}"
-        contributor_html = contributor
         if contributor_url:
             github_logo = (
                 f'<a href="{contributor_url}" style="margin-left: 0.6em; display: inline-flex; '
@@ -119,9 +124,9 @@ def render_card(card: dict, attachments_rel: str) -> str:
             "  </div>"
         )
         lines.append(
-            '  <div style="margin-top: 0.35em; padding-left: 0.5em; font-size: 1.2rem; color: #5f6368; '
+            '  <div style="margin-top: 0.35em; padding-left: 0.3em; font-size: 1.2rem; color: #5f6368; '
             'display: flex; align-items: center; gap: 0.4em;">'
-            f"{contributor_html}{github_logo}</div>"
+            f"{contributor}{github_logo}</div>"
         )
 
     lines.append(

@@ -5,7 +5,7 @@
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
-    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="../attachments/cs_433_intro_algorithms.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp EN.601.433 Intro Algorithms</a></h3>
+    <h3 style="margin: 0; font-size: 1.7rem; font-weight: 600;"> <a href="../attachments/cs_433_intro_algorithms.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp EN.601.433 Intro Algorithms</a></h3>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -24,7 +24,7 @@
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
-    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="../attachments/cs_475_machine_learning.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp EN.601.475 Machine Learning</a></h3>
+    <h3 style="margin: 0; font-size: 1.7rem; font-weight: 600;"> <a href="../attachments/cs_475_machine_learning.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp EN.601.475 Machine Learning</a></h3>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -43,7 +43,7 @@
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
-    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="https://james-guo-03.github.io/notes/machine_learning.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp EN.601.475 Machine Learning (Fall)</a></h3>
+    <h3 style="margin: 0; font-size: 1.7rem; font-weight: 600;"> <a href="https://james-guo-03.github.io/notes/machine_learning.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp EN.601.475 Machine Learning (Fall)</a></h3>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -54,7 +54,7 @@
   <div style="margin-top: 0.45em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Contributor</span>
   </div>
-  <div style="margin-top: 0.35em; padding-left: 0.5em; font-size: 1.2rem; color: #5f6368; display: flex; align-items: center; gap: 0.4em;">James Guo<a href="https://github.com/james-guo-03" style="margin-left: 0.6em; display: inline-flex; align-items: center;"><img src="../attachments/github-logo.png" alt="GitHub" style="width: 18px; height: 18px; vertical-align: middle;" /></a></div>
+  <div style="margin-top: 0.35em; padding-left: 0.3em; font-size: 1.2rem; color: #5f6368; display: flex; align-items: center; gap: 0.4em;">James Guo<a href="https://github.com/james-guo-03" style="margin-left: 0.6em; display: inline-flex; align-items: center;"><img src="../../attachments/github-logo.png" alt="GitHub" style="width: 18px; height: 18px; vertical-align: middle;" /></a></div>
   <div style="margin-top: 0.95em; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;">
     <a href="https://james-guo-03.github.io/notes/machine_learning.pdf" style="font-weight: 600; color: #3457d5; text-decoration: none;">View Notebook →</a>
     <div style="display: flex; align-items: center; gap: 0.55em;">
@@ -66,7 +66,7 @@
 
 <div class="notebook-card" style="margin: 0.85cm 0; padding: 1.25em 1.4em; border-radius: 18px; border: 1px solid #3457d533; background: #f5f7ff; box-shadow: 0 12px 30px rgba(15, 23, 42, 0.08);">
   <div style="display: flex; justify-content: space-between; flex-wrap: wrap; align-items: center; gap: 0.75rem;">
-    <h3 style="margin: 0; font-size: 1.6rem; font-weight: 600;"> <a href="https://james-guo-03.github.io/notes/mldl-notes.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp EN.601.482 Machine Learning: Deep Learning (Spring)</a></h3>
+    <h3 style="margin: 0; font-size: 1.7rem; font-weight: 600;"> <a href="https://james-guo-03.github.io/notes/mldl-notes.pdf" style="color: inherit; text-decoration: none;"> 📘 &nbsp EN.601.482 Machine Learning: Deep Learning (Spring)</a></h3>
   </div>
   <div style="margin-top: 0.7em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Description</span>
@@ -77,7 +77,7 @@
   <div style="margin-top: 0.45em;">
     <span style="display: inline-block; padding: 0.2em 0.7em; border-radius: 999px; background: #e1e4eb; color: #4b5563; font-size: 0.8rem; font-weight: 600; letter-spacing: 0.03em; text-transform: uppercase;">Contributor</span>
   </div>
-  <div style="margin-top: 0.35em; padding-left: 0.5em; font-size: 1.2rem; color: #5f6368; display: flex; align-items: center; gap: 0.4em;">James Guo<a href="https://github.com/james-guo-03" style="margin-left: 0.6em; display: inline-flex; align-items: center;"><img src="../attachments/github-logo.png" alt="GitHub" style="width: 18px; height: 18px; vertical-align: middle;" /></a></div>
+  <div style="margin-top: 0.35em; padding-left: 0.3em; font-size: 1.2rem; color: #5f6368; display: flex; align-items: center; gap: 0.4em;">James Guo<a href="https://github.com/james-guo-03" style="margin-left: 0.6em; display: inline-flex; align-items: center;"><img src="../../attachments/github-logo.png" alt="GitHub" style="width: 18px; height: 18px; vertical-align: middle;" /></a></div>
   <div style="margin-top: 0.95em; display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 0.6rem;">
     <a href="https://james-guo-03.github.io/notes/mldl-notes.pdf" style="font-weight: 600; color: #3457d5; text-decoration: none;">View Notebook →</a>
     <div style="display: flex; align-items: center; gap: 0.55em;">

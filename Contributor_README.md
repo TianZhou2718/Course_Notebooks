@@ -3,7 +3,7 @@
 Notebook “cards” are generated from structured data. To add or update notebook, modify metadata files (in `/toml`) in `data/` directory. Then regenerate (and overwrite) the md files by running:
 
 ```bash
-python3 scripts/generate_notebook_cards.py
+python3 data/utils/generate_notebook_cards.py
 ```
 
 - Notebook metadata:
